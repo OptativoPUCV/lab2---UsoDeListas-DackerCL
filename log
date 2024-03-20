@@ -51,3 +51,31 @@ Wed 20 Mar 2024 08:47:53 PM UTC:
  tests:  3|2
 total_score: 40/70
 ea4d833
+Wed 20 Mar 2024 09:02:00 PM UTC: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:101:12: error: expected expression before ‘=’ token
+  101 |   while(P1)=NULL){
+      |            ^
+exercises.c:101:3: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+  101 |   while(P1)=NULL){
+      |   ^~~~~
+exercises.c:101:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+  101 |   while(P1)=NULL){
+      |                 ^
+exercises.c:101:17: error: expected statement before ‘)’ token
+exercises.c:104:14: error: expected expression before ‘=’ token
+  104 |   while(dato)=NULL){
+      |              ^
+exercises.c:104:3: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+  104 |   while(dato)=NULL){
+      |   ^~~~~
+exercises.c:104:19: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+  104 |   while(dato)=NULL){
+      |                   ^
+exercises.c:104:19: error: expected statement before ‘)’ token
+cc1: all warnings being treated as errors
+Compilation failed
+5b8dfd3
