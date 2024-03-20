@@ -15,3 +15,15 @@ exercises.c:49:5: error: implicit declaration of function ‘push_back’; did y
 cc1: all warnings being treated as errors
 Compilation failed
 c22af01
+Wed 20 Mar 2024 08:41:14 PM UTC: 
+ exercises.c | 9 ---------
+ 1 file changed, 9 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:49:5: error: implicit declaration of function ‘push_back’; did you mean ‘pushBack’? [-Werror=implicit-function-declaration]
+   49 |     push_back(L, dato);
+      |     ^~~~~~~~~
+      |     pushBack
+cc1: all warnings being treated as errors
+Compilation failed
+0afb2c2
